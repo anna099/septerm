@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "plato.stanford.edu cli",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anna099/septerm.git"
@@ -15,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/anna099/septerm/issues"
   },
-  "homepage": "https://github.com/anna099/septerm#readme"
+  "homepage": "https://github.com/anna099/septerm#readme",
+  "dependencies": {
+    "char-spinner": "^1.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  }
 }
